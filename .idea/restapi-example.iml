@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/orm/tools" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Framework/TYPO3.Fluid/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Framework/TYPO3.Eel/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Framework/TYPO3.Welcome/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Framework/TYPO3.Kickstart/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Framework/TYPO3.Party/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Framework/TYPO3.Flow/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/orm/tools/sandbox" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/symfony/dom-crawler" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/symfony/console" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/symfony/yaml" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/common/tests/Doctrine/Tests/Common" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/dbal/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/migrations/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/migrations/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/orm/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/orm/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/dbal/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/cache/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/common/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/inflector/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/annotations/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/collections/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/common/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/lexer/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/cache/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/collections/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/inflector/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/doctrine/annotations/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/composer/installers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/composer/installers/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/mikey179/vfsStream/src/main/php" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Libraries/mikey179/vfsStream/src/test/php" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Application/He.ProductsApi1/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Application/Helmich.Products/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Application/Helmich.RestTools/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Application/Helmich.ProductsApiSimple/Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Packages/Application/Helmich.ProductsApiAdvanced/Classes" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Data/Temporary" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

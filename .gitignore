@@ -1,0 +1,10 @@
+/Build/
+/Configuration/
+/Data/
+/Packages/
+/Web/
+/bin/
+/composer.lock
+/flow
+/flow.bat
+/.idea/workspace.xml
