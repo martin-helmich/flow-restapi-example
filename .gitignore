@@ -1,7 +1,11 @@
 /Build/
 /Configuration/
 /Data/
-/Packages/
+/Packages/Application/*
+/Packages/Framework/*
+/Packages/Libraries/*
+!/Packages/Application
+!/Packages/Application/Helmich.Products
 /Web/
 /bin/
 /composer.lock

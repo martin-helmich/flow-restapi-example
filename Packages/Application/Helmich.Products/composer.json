@@ -1,0 +1,13 @@
+{
+    "name": "helmich/products",
+    "type": "typo3-flow-package",
+    "description": "Example base package for demonstrating various advanced TYPO3 Flow practices.",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Helmich\\Products": "Classes"
+        }
+    }
+}
