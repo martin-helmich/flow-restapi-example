@@ -1,0 +1,21 @@
+- name: List all
+  uriPattern: ''
+  defaults:
+    @action: list
+  httpMethods:
+    - GET
+
+- name: Show one
+  uriPattern: '/{manufacturer}'
+  defaults:
+    @action: show
+  httpMethods:
+    - GET
+
+- name: List by manufacturer
+  uriPattern: '/{manufacturer}/products'
+  defaults:
+    @controller: Product
+    @action: listByManufacturer
+  httpMethods:
+    - GET

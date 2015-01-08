@@ -1,0 +1,34 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+# This file contains the configuration for the MVC router.               #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the Flow manual for possible configuration options.    #
+#                                                                        #
+
+- name: 'Products'
+  uriPattern: 'products<ProductSubroutes>(.{@format})'
+  defaults:
+    @package: Helmich.ProductsApiSimple
+    @controller: Product
+    @format: json
+  subRoutes:
+    ProductSubroutes:
+      package: Helmich.ProductsApiSimple
+      suffix: Entity
+      variables:
+        entity: product
+
+- name: 'Manufacturers'
+  uriPattern: 'manufacturers<ManufacturerSubroutes>(.{@format})'
+  defaults:
+    @package: Helmich.ProductsApiSimple
+    @controller: Manufacturer
+    @format: json
+  subRoutes:
+    ManufacturerSubroutes:
+      package: Helmich.ProductsApiSimple
+      suffix: Entity
+      variables:
+        entity: manufacturer

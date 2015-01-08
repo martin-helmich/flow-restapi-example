@@ -6,6 +6,8 @@
 /Packages/Libraries/*
 !/Packages/Application
 !/Packages/Application/Helmich.Products
+!/Packages/Application/Helmich.ProductsApiSimple
+!/Packages/Application/Helmich.ProductsApiAdvanced
 /Web/
 /bin/
 /composer.lock

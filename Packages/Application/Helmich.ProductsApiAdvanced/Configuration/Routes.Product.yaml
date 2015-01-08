@@ -1,0 +1,42 @@
+- name: List all
+  uriPattern: ''
+  defaults:
+    @action: list
+  httpMethods:
+    - GET
+
+- name: Create
+  uriPattern: ''
+  defaults:
+    @action: create
+  httpMethods:
+    - POST
+
+- name: Show one
+  uriPattern: '/{product}'
+  defaults:
+    @action: show
+  httpMethods:
+    - GET
+
+- name: Update
+  uriPattern: '/{productIdentifier}'
+  defaults:
+    @action: update
+  httpMethods:
+    - PUT
+
+- name: Delete
+  uriPattern: '/{product}'
+  defaults:
+    @action: delete
+  httpMethods:
+    - DELETE
+
+- name: List inventory changes
+  uriPattern: '/{product}/inventory-changes'
+  defaults:
+    @controller: InventoryChange
+    @action: list
+  httpMethods:
+    - GET

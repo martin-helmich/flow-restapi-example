@@ -1,0 +1,14 @@
+{
+    "name": "helmich/productsapiadvanced",
+    "type": "typo3-flow-package",
+    "description": "Add description here",
+    "require": {
+        "typo3/flow": "*",
+        "helmich/resttools": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Helmich\\ProductsApiAdvanced": "Classes"
+        }
+    }
+}

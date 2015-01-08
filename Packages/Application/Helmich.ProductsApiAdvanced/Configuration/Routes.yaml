@@ -1,0 +1,58 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+# This file contains the configuration for the MVC router.               #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the Flow manual for possible configuration options.    #
+#                                                                        #
+
+
+- name: 'Products'
+  uriPattern: 'products<ProductSubroutes>(.{@format})'
+  defaults:
+    @package: Helmich.ProductsApiAdvanced
+    @controller: Product
+    @format: json
+  subRoutes:
+    ProductSubroutes:
+      package: Helmich.ProductsApiAdvanced
+      suffix: Product
+
+- name: 'Manufacturers'
+  uriPattern: 'manufacturers<ManufacturerSubroutes>(.{@format})'
+  defaults:
+    @package: Helmich.ProductsApiAdvanced
+    @controller: Manufacturer
+    @format: json
+  subRoutes:
+    ManufacturerSubroutes:
+      package: Helmich.ProductsApiAdvanced
+      suffix: Manufacturer
+
+#- name: 'List Products'
+#  uriPattern: 'products(.{@format})'
+#  defaults:
+#    @package: Helmich.ProductsApiAdvanced
+#    @controller: Product
+#    @action: list
+#    @format: json
+#  httpMethods: [GET]
+#
+#- name: 'Create products'
+#  uriPattern: products
+#  defaults:
+#    @package: Helmich.ProductsApiAdvanced
+#    @controller: Product
+#    @action: create
+#    @format: json
+#  httpMethods: [POST]
+#
+#- name: 'Show product'
+#  uriPattern: 'products/{product}(.{@format})'
+#  defaults:
+#    @package: Helmich.ProductsApiAdvanced
+#    @controller: Product
+#    @action: show
+#    @format: json
+#  httpMethods: [GET]
