@@ -22,7 +22,7 @@ Installation
 
 Diese Anwendung kann über [Composer](http://getcomposer.org) installiert werden:
 
-    composer create-project helmich/flow-rest-example
+    composer create-project helmich/flow-restapi-example
 
 Folgen Sie anschließend den [Installationsanweisungen von TYPO3](http://docs.typo3.org/flow/TYPO3FlowDocumentation/Quickstart/Index.html#installing-typo3-flow).
 Richten Sie auch Ihre [Datenbank ein](http://docs.typo3.org/flow/TYPO3FlowDocumentation/Quickstart/Index.html#database-setup)
