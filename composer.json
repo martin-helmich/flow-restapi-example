@@ -11,7 +11,7 @@
         "typo3/welcome": "2.3.*",
         "doctrine/migrations": "@dev",
         "symfony/serializer": "~2.6",
-        "helmich/flow-resttools": "*"
+        "helmich/flow-resttools": "dev-master"
     },
     "require-dev": {
         "typo3/kickstart": "2.3.*",
