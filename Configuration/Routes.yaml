@@ -7,14 +7,19 @@
 # Please refer to the Flow manual for possible configuration options.    #
 #                                                                        #
 
--
-  name: 'Products v1'
+##
+# Routes for the two packages providing REST APIs for the products
+# domain model. Note how you can use route prefixes (like "api/v1")
+# to add different versions of your API.
+#
+
+- name: 'Products v1'
   uriPattern: 'api/v1/<ProductsSimpleSubroutes>'
   subRoutes:
     ProductsSimpleSubroutes:
       package: Helmich.ProductsApiSimple
--
-  name: 'Products v2'
+
+- name: 'Products v2'
   uriPattern: 'api/v2/<ProductsAdvancedSubroutes>'
   subRoutes:
     ProductsAdvancedSubroutes:
