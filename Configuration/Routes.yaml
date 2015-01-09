@@ -1,0 +1,34 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+# This file contains the configuration for the MVC router.               #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the Flow manual for possible configuration options.    #
+#                                                                        #
+
+-
+  name: 'Products v1'
+  uriPattern: 'api/v1/<ProductsSimpleSubroutes>'
+  subRoutes:
+    ProductsSimpleSubroutes:
+      package: Helmich.ProductsApiSimple
+-
+  name: 'Products v2'
+  uriPattern: 'api/v2/<ProductsAdvancedSubroutes>'
+  subRoutes:
+    ProductsAdvancedSubroutes:
+      package: Helmich.ProductsApiAdvanced
+
+##
+# Flow subroutes
+#
+
+-
+  name: 'Flow'
+  uriPattern: '<FlowSubroutes>'
+  defaults:
+    '@format': 'html'
+  subRoutes:
+    FlowSubroutes:
+      package: TYPO3.Flow
