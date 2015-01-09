@@ -4,7 +4,7 @@
     "description": "Add description here",
     "require": {
         "typo3/flow": "*",
-        "helmich/resttools": "*"
+        "helmich/flow-resttools": "*"
     },
     "autoload": {
         "psr-0": {
