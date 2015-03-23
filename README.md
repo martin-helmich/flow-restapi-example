@@ -13,7 +13,7 @@ to implement RESTful Webservices with TYPO3 Flow. It contains three packages:
 - `Helmich.ProductsApiSimple` contains a simple REST-like API (level 2 of the
   [Richardson Maturity Model](http://martinfowler.com/articles/richardsonMaturityModel.html))
   which allows you to CRUD products and manufacturers using respective HTTP methods.
-- `Helmich.ProductsApiAdvances` contains an advanced API (level 3 of the RMM), which is _hypermedia controlled_
+- `Helmich.ProductsApiAdvanced` contains an advanced API (level 3 of the RMM), which is _hypermedia controlled_
   (which means that there are links between resources) and also shows some design patterns to decouple your
   REST resource representations from your domain entities.
 
